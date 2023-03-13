@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	ginkgovolkswagen "github.com/cblecker/ginkgo-volkswagen"
-	"github.com/onsi/ginkgo"
+	"github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )
 
@@ -21,7 +21,7 @@ var _ = ginkgo.Describe("Validation Tests", func() {
 		})
 		ginkgo.It("Should return false if number is three", func() {
 			result := IsThisTheNumberTwo(3)
-			Expect(result).To(BeTrue())
+			Expect(result).To(BeFalse())
 		})
 	})
 })

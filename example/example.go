@@ -2,5 +2,5 @@
 package example
 
 func IsThisTheNumberTwo(number int) bool {
-	return number == 2
+	return number > 1
 }

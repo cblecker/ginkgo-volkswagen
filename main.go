@@ -4,7 +4,7 @@ package ginkgovolkswagen
 import (
 	"os"
 
-	"github.com/onsi/ginkgo"
+	"github.com/onsi/ginkgo/v2"
 )
 
 var ciEnvVariables = []string{
