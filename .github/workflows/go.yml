@@ -91,4 +91,4 @@ jobs:
       run: go mod download
 
     - name: Run Linter
-      uses: golangci/golangci-lint-action@v5
+      uses: golangci/golangci-lint-action@v6
