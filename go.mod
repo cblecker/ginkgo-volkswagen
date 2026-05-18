@@ -4,7 +4,7 @@ go 1.25.6
 
 require (
 	github.com/onsi/ginkgo/v2 v2.29.0
-	github.com/onsi/gomega v1.40.0
+	github.com/onsi/gomega v1.41.0
 )
 
 require (
