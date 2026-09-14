@@ -3,7 +3,7 @@ module github.com/cblecker/ginkgo-volkswagen
 go 1.25.6
 
 require (
-	github.com/onsi/ginkgo/v2 v2.32.1
+	github.com/onsi/ginkgo/v2 v2.32.2
 	github.com/onsi/gomega v1.43.0
 )
 
